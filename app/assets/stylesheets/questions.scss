@@ -1,0 +1,18 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+blockquote {
+  border-width: 0px 0px 0px 10px;
+  border-style: solid;
+  border-color: grey;
+  color: grey;
+  padding-left: 10px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+blockquote p {
+  margin: 10px;
+  padding: 20px;
+}

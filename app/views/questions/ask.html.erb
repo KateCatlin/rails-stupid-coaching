@@ -1,0 +1,8 @@
+
+<h1> Talk to your coach here: </h1>
+
+<form action="/answer" method="get">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="text" name="query" placeholder="What's up?">
+  <input type="submit">
+</form>
