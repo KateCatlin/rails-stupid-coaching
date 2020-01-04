@@ -14,5 +14,8 @@ module RailsStupidCoaching
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+    Raven.configure do |config|
+    	config.dsn = 'https://c84fccfe5b1149369fd7b8c4e699de48:2ed9ab12257d458484b3581aab03c468@sentry.io/1871492'
+    end
   end
 end
